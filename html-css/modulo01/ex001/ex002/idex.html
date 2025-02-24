@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parágrafos e Tags HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            color: #333;
+        }
+        h1, h2 {
+            color: #002dff;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 5px;
+        }
+        hr {
+            border: 1px solid #ccc;
+            margin: 20px 0;
+        }
+        .emoji {
+            font-size: 1.5rem;
+        }
+        a {
+            color: #002dff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Parágrafos e Quebras de Linhas</h1>
+    <p>
+        A tag <code>&lt;p&gt;</code> em HTML é utilizada para definir um parágrafo de texto. Ela é uma das tags mais básicas e essenciais para estruturar conteúdo em uma página web.
+    </p>
+    <p>
+        <strong>Características:</strong>
+        <ul>
+            <li>O texto dentro da tag <code>&lt;p&gt;</code> é exibido como um bloco de parágrafo, com espaçamento automático acima e abaixo.</li>
+            <li>É uma tag de contêiner, ou seja, possui uma tag de abertura (<code>&lt;p&gt;</code>) e uma de fechamento (<code>&lt;/p&gt;</code>).</li>
+        </ul>
+    </p>
+    <p><strong>Exemplo:</strong></p>
+    <p>Este é um parágrafo de exemplo.</p>
+    <p>HTML facilita a organização e exibição do conteúdo em páginas web.</p>
+    <hr>
+
+    <h1>Tag &lt;hr&gt;</h1>
+    <p>
+        A tag <code>&lt;hr&gt;</code> em HTML é usada para criar uma linha horizontal em uma página web. Essa linha é frequentemente usada para separar seções ou conteúdos de forma visual.
+    </p>
+    <p><strong>Características:</strong></p>
+    <ul>
+        <li>É uma tag autossuficiente (não requer uma tag de fechamento).</li>
+        <li>Historicamente, era usada para indicar uma mudança temática entre parágrafos.</li>
+    </ul>
+    <p><strong>Exemplo:</strong></p>
+    <p>Seção 1</p>
+    <hr>
+    <p>Seção 2</p>
+    <p><strong>Estilização com CSS:</strong></p>
+    <hr style="border: 2px dashed #333; width: 50%; margin: 10px auto;">
+    <p>Uma linha estilizada com CSS.</p>
+    <hr>
+
+    <h1>Símbolos Especiais</h1>
+    <p>
+        Os símbolos especiais em HTML são representados por entidades HTML, que são sequências de caracteres iniciadas com um <code>&amp;</code> e terminadas com um ponto-e-vírgula (<code>;</code>). Eles permitem exibir caracteres que poderiam ser interpretados como código ou que não estão disponíveis diretamente no teclado.
+    </p>
+    <ul>
+        <li>&copy; (Copyright)</li>
+        <li>&reg; (Registrado)</li>
+        <li>&trade; (Marca Registrada)</li>
+        <li>&Delta; (Delta)</li>
+        <li>&cent; (Centavo)</li>
+        <li>&yen; (Iene)</li>
+        <li>&uarr; (Seta para cima)</li>
+        <li>&ge; (Maior ou igual)</li>
+        <li>&le; (Menor ou igual)</li>
+    </ul>
+    <hr>
+
+    <h2>Adicionando Emojis</h2>
+    <p>
+        Os emojis podem ser representados em HTML usando suas entidades Unicode ou diretamente como caracteres.
+    </p>
+    <p><strong>Exemplo:</strong></p>
+    <ul>
+        <li>Emoji Direto: 😀</li>
+        <li>Entidade Unicode: &#x1F600; (😀)</li>
+    </ul>
+    <p class="emoji">
+        😊 &#x1F60A; | 👍 &#x1F44D; | ❤️ &#x2764; | 🎉 &#x1F389; | 💻 &#x1F4BB;
+    </p>
+    <p>
+        Consulte mais códigos de emojis na <a href="https://emojipedia.org/" target="_blank">Emojipedia</a>.
+    </p>
+</body>
+</html>
